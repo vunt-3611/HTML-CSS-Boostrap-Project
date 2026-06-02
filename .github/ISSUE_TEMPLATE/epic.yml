@@ -14,7 +14,7 @@ body:
     id: goals
     attributes:
       label: 🎯 Goals
-      placeholder: |
+      value: |
         -
         -
 
@@ -22,19 +22,19 @@ body:
     id: scope_in
     attributes:
       label: 📦 In Scope
-      placeholder: "-"
+      value: "-"
 
   - type: textarea
     id: scope_out
     attributes:
       label: 📦 Out of Scope
-      placeholder: "-"
+      value: "-"
 
   - type: textarea
     id: linked_tasks
     attributes:
       label: 🔗 Linked Stories / Tasks
-      placeholder: |
+      value: |
         - [ ] #
         - [ ] #
 

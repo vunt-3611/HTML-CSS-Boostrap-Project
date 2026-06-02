@@ -1,6 +1,6 @@
 name: "[Documentation]"
 description: Tạo hoặc cập nhật tài liệu
-labels: ["type:documentation"]
+labels: ["type:documentation", "type:devtask"]
 body:
   - type: textarea
     id: scope
@@ -15,7 +15,7 @@ body:
     attributes:
       label: 📋 Content Outline
       description: Các ý chính trong doc
-      placeholder: |
+      value: |
         -
         -
         -
@@ -24,4 +24,4 @@ body:
     id: references
     attributes:
       label: 🔗 References
-      placeholder: "-"
+      value: "-"

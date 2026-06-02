@@ -1,6 +1,6 @@
 name: "[Change Request]"
 description: Yêu cầu thay đổi tính năng đã có
-labels: ["type:changerequest"]
+labels: ["type:changerequest", "type:devtask"]
 body:
   - type: textarea
     id: summary
@@ -33,10 +33,10 @@ body:
     attributes:
       label: ⚠️ Impact Analysis
       description: Các component / flow bị ảnh hưởng bởi thay đổi này
-      placeholder: "-"
+      value: "-"
 
   - type: textarea
     id: references
     attributes:
       label: 🔗 References
-      placeholder: "-"
+      value: "-"
