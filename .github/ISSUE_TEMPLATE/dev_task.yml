@@ -15,9 +15,9 @@ body:
     attributes:
       label: ✅ Acceptance Criteria
       options:
-        - label: ""
-        - label: ""
-        - label: ""
+        - label: Criteria 1
+        - label: Criteria 2
+        - label: Criteria 3
 
   - type: textarea
     id: references

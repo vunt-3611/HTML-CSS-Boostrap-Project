@@ -16,9 +16,9 @@ body:
       label: ✅ Acceptance Criteria
       description: "Với bối cảnh ..., khi làm ..., thì ..."
       options:
-        - label: ""
-        - label: ""
-        - label: ""
+        - label: Criteria 1
+        - label: Criteria 2
+        - label: Criteria 3
 
   - type: textarea
     id: design
