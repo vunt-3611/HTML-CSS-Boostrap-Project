@@ -1,6 +1,6 @@
 name: "[Epic]"
 description: Nhóm các Story/Task theo tính năng lớn
-labels: ["type:epic"]
+labels: ["type:epic", "type:devtask"]
 body:
   - type: textarea
     id: overview

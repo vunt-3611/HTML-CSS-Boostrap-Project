@@ -1,6 +1,6 @@
 name: "[Bug]"
 description: Báo cáo lỗi trong ứng dụng
-labels: ["type:bug"]
+labels: ["type:bug", "type:devtask"]
 body:
   - type: textarea
     id: description
