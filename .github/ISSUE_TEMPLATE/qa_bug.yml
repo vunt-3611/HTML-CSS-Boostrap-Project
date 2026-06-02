@@ -1,0 +1,52 @@
+name: "[QA Bug]"
+description: Bug phát hiện trong quá trình QA/testing
+labels: ["type:qabug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 🐛 Bug Description
+      description: Mô tả ngắn gọn bug là gì
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Steps to Reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 🎯 Expected Behavior
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Actual Behavior
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots / Logs
+
+  - type: input
+    id: branch_version
+    attributes:
+      label: 🌍 Branch / Version
+
+  - type: input
+    id: device_browser
+    attributes:
+      label: 🌍 Device / Browser
+
+  - type: input
+    id: os
+    attributes:
+      label: 🌍 OS

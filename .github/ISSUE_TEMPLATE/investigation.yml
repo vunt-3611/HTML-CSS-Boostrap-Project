@@ -1,0 +1,37 @@
+name: "[Investigation]"
+description: Tìm hiểu nguyên nhân hoặc tính khả thi của một vấn đề
+labels: ["type:investigation"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 🔍 Investigation Goal
+      description: Cần tìm hiểu / làm rõ điều gì
+    validations:
+      required: true
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: ❓ Key Questions
+      placeholder: |
+        -
+        -
+        -
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: 📋 Approach
+      description: "Cách tiếp cận: đọc code, benchmark, spike, PoC..."
+
+  - type: textarea
+    id: findings
+    attributes:
+      label: 📊 Findings
+      description: Kết quả sau điều tra (điền sau khi hoàn thành)
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 🎯 Outcome / Next Steps

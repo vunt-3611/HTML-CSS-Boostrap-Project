@@ -1,0 +1,77 @@
+name: "[Production Bug]"
+description: Bug phát sinh trên môi trường production
+labels: ["type:productionbug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 🚨 Bug Description
+      description: Mô tả ngắn gọn bug là gì, ảnh hưởng ra sao
+    validations:
+      required: true
+
+  - type: input
+    id: affected_users
+    attributes:
+      label: 👥 Affected Users
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Severity
+      options:
+        - Critical
+        - High
+        - Medium
+    validations:
+      required: true
+
+  - type: input
+    id: first_reported
+    attributes:
+      label: 🕐 First Reported
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Steps to Reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 🎯 Expected Behavior
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Actual Behavior
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📸 Screenshots / Logs / Error
+
+  - type: input
+    id: version
+    attributes:
+      label: 🌍 Version / Release
+
+  - type: input
+    id: browser_device
+    attributes:
+      label: 🌍 Browser / Device
+
+  - type: textarea
+    id: hotfix
+    attributes:
+      label: 🛠️ Hotfix Plan
+      placeholder: |
+        - Workaround:
+        - Root cause:
+        - Fix approach:

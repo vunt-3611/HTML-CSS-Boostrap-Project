@@ -1,0 +1,42 @@
+name: "[Change Request]"
+description: Yêu cầu thay đổi tính năng đã có
+labels: ["type:changerequest"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📋 Change Summary
+      description: Mô tả ngắn gọn thay đổi được yêu cầu
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: 🔍 Current Behavior
+      description: Hệ thống hiện tại đang hoạt động như thế nào
+
+  - type: textarea
+    id: desired
+    attributes:
+      label: 🎯 Desired Behavior
+      description: Hệ thống nên hoạt động như thế nào sau thay đổi
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 💡 Reason / Business Value
+      description: Lý do cần thay đổi, lợi ích mang lại
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: ⚠️ Impact Analysis
+      description: Các component / flow bị ảnh hưởng bởi thay đổi này
+      placeholder: "-"
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🔗 References
+      placeholder: "-"
