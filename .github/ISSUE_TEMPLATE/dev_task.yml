@@ -10,14 +10,15 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
     id: acceptance_criteria
     attributes:
       label: ✅ Acceptance Criteria
-      options:
-        - label: Criteria 1
-        - label: Criteria 2
-        - label: Criteria 3
+      description: Liệt kê các tiêu chí hoàn thành
+      value: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+        - [ ] Criteria 3
 
   - type: textarea
     id: references

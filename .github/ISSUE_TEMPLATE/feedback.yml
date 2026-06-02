@@ -1,6 +1,6 @@
 name: "[Feedback]"
 description: Phản hồi từ stakeholder hoặc người dùng
-labels: ["type:feedback"]
+labels: ["type:feedback", "type:devtask"]
 body:
   - type: textarea
     id: content
@@ -32,4 +32,4 @@ body:
     id: references
     attributes:
       label: 🔗 References
-      placeholder: "-"
+      value: "-"

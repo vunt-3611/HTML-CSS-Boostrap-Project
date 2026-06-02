@@ -1,6 +1,6 @@
 name: "[Story]"
 description: Yêu cầu tính năng từ góc nhìn người dùng
-labels: ["type:story"]
+labels: ["type:story", "type:devtask"]
 body:
   - type: textarea
     id: user_story
@@ -10,27 +10,27 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
     id: acceptance_criteria
     attributes:
       label: ✅ Acceptance Criteria
       description: "Với bối cảnh ..., khi làm ..., thì ..."
-      options:
-        - label: Criteria 1
-        - label: Criteria 2
-        - label: Criteria 3
+      value: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+        - [ ] Criteria 3
 
   - type: textarea
     id: design
     attributes:
       label: 🎨 Design
       description: "Link Figma / mockup"
-      placeholder: "-"
+      value: "-"
 
   - type: textarea
     id: subtasks
     attributes:
       label: 🔗 Sub-tasks
-      placeholder: |
+      value: |
         - [ ] #
         - [ ] #

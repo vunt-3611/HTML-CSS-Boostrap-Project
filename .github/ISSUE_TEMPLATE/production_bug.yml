@@ -1,6 +1,6 @@
 name: "[Production Bug]"
 description: Bug phát sinh trên môi trường production
-labels: ["type:productionbug"]
+labels: ["type:productionbug", "type:devtask"]
 body:
   - type: textarea
     id: description
@@ -35,7 +35,7 @@ body:
     id: steps
     attributes:
       label: 🔁 Steps to Reproduce
-      placeholder: |
+      value: |
         1.
         2.
         3.
@@ -71,7 +71,7 @@ body:
     id: hotfix
     attributes:
       label: 🛠️ Hotfix Plan
-      placeholder: |
+      value: |
         - Workaround:
         - Root cause:
         - Fix approach:

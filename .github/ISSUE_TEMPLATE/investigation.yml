@@ -1,6 +1,6 @@
 name: "[Investigation]"
 description: Tìm hiểu nguyên nhân hoặc tính khả thi của một vấn đề
-labels: ["type:investigation"]
+labels: ["type:investigation", "type:devtask"]
 body:
   - type: textarea
     id: goal
@@ -14,7 +14,7 @@ body:
     id: questions
     attributes:
       label: ❓ Key Questions
-      placeholder: |
+      value: |
         -
         -
         -
