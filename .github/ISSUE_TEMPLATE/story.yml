@@ -1,0 +1,36 @@
+name: "[Story]"
+description: Yêu cầu tính năng từ góc nhìn người dùng
+labels: ["type:story"]
+body:
+  - type: textarea
+    id: user_story
+    attributes:
+      label: 👤 User Story
+      description: "Là một người dùng, tôi muốn làm ... để ... ."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acceptance_criteria
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: "Với bối cảnh ..., khi làm ..., thì ..."
+      options:
+        - label: ""
+        - label: ""
+        - label: ""
+
+  - type: textarea
+    id: design
+    attributes:
+      label: 🎨 Design
+      description: "Link Figma / mockup"
+      placeholder: "-"
+
+  - type: textarea
+    id: subtasks
+    attributes:
+      label: 🔗 Sub-tasks
+      placeholder: |
+        - [ ] #
+        - [ ] #

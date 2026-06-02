@@ -1,0 +1,35 @@
+name: "[Feedback]"
+description: Phản hồi từ stakeholder hoặc người dùng
+labels: ["type:feedback"]
+body:
+  - type: textarea
+    id: content
+    attributes:
+      label: 💬 Feedback Content
+      description: Nội dung phản hồi cụ thể
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: 👤 Source
+      description: "Phản hồi từ ai (stakeholder, end user, internal team...)"
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🔍 Context
+      description: Tình huống / màn hình / flow phát sinh phản hồi
+
+  - type: textarea
+    id: action
+    attributes:
+      label: 🎯 Proposed Action
+      description: Phương án xử lý, nếu không đối ứng thì cần kèm lý do
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🔗 References
+      placeholder: "-"

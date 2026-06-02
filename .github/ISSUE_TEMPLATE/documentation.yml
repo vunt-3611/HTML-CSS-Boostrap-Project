@@ -1,0 +1,27 @@
+name: "[Documentation]"
+description: Tạo hoặc cập nhật tài liệu
+labels: ["type:documentation"]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: 📝 Documentation Scope
+      description: Tài liệu cần tạo / cập nhật là gì
+    validations:
+      required: true
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: 📋 Content Outline
+      description: Các ý chính trong doc
+      placeholder: |
+        -
+        -
+        -
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🔗 References
+      placeholder: "-"

@@ -42,9 +42,9 @@ When asked to generate a commit message, always follow the project format below.
 
 ### Issue ID
 
-1. Check if the user mentioned an issue number (e.g. "#142", "issue 98")
-2. Parse from the current branch name if available — e.g. `feature/142-google-oauth` → `142`
-3. If not found, use `--`
+1. Check from the current branch name if available — e.g. `142-google-oauth` → `142`
+2. If not found, use `--`
+
 ### `type`
 
 Infer from the code change shown or described:

@@ -1,0 +1,49 @@
+name: "[Epic]"
+description: Nhóm các Story/Task theo tính năng lớn
+labels: ["type:epic"]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 🗺️ Overview
+      description: Mô tả tổng quan Epic này bao gồm những gì, mục tiêu là gì
+    validations:
+      required: true
+
+  - type: textarea
+    id: goals
+    attributes:
+      label: 🎯 Goals
+      placeholder: |
+        -
+        -
+
+  - type: textarea
+    id: scope_in
+    attributes:
+      label: 📦 In Scope
+      placeholder: "-"
+
+  - type: textarea
+    id: scope_out
+    attributes:
+      label: 📦 Out of Scope
+      placeholder: "-"
+
+  - type: textarea
+    id: linked_tasks
+    attributes:
+      label: 🔗 Linked Stories / Tasks
+      placeholder: |
+        - [ ] #
+        - [ ] #
+
+  - type: input
+    id: start_date
+    attributes:
+      label: 📅 Start Date
+
+  - type: input
+    id: due_date
+    attributes:
+      label: 📅 Due Date
